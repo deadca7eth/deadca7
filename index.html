@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1095.px</title>
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/f1e239c9-7a79-44c1-8c54-a018ec2b2695/logo13.gif?v=1706423936360">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: black;
+        } 
+      @media (max-width: 1200px) {
+        body {
+            height: 1760px;
+        }
+      }
+
+        video {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: fill; 
+            z-index: -1;
+        }
+      
+      .btn-CA7 {
+        display: box;
+        position: absolute;
+        width: 23%;
+        height: 9.3%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 0%; 
+        top: 0%
+      }
+      .btn-X {
+        display: box;
+        position: absolute;
+        width: 4%;
+        height: 6%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 59%; 
+        top: 0%
+      }
+      .btn-TG {
+        display: box;
+        position: absolute;
+        width: 5%;
+        height: 6%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 63.5%; 
+        top: 0%
+      }
+      .btn-DEX {
+        display: box;
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 69%; 
+        top: 0%
+      }
+      .btn-CA {
+        display: box;
+        position: absolute;
+        width: 43%;
+        height: 4%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 0%; 
+        top: 9%;
+      }
+      .btn-t0k {
+        display: box;
+        position: absolute;
+        width: 15%;
+        height: 6%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 85%; 
+        top: 0%
+      }
+      
+      .btn-about {
+        display: box;
+        position: absolute;
+        width: 9%;
+        height: 6%;
+        background: none;
+        z-index: 10;
+        cursor: pointer;
+        left: 75.3%; 
+        top: 0%
+      }
+      .btn-CA7:hover::before,
+      .btn-X:hover::before,
+      .btn-TG:hover::before,
+      .btn-DEX:hover::before,
+      .btn-CA:hover::before,
+      .btn-t0k:hover::before,
+      .btn-about:hover::before{
+        animation: none;
+        opacity: 0.4;
+        transform: scale(1.3);
+      }
+      .btn-CA7.is-clicked,
+      .btn-X.is-clicked,
+      .btn-TG.is-clicked,
+      .btn-DEX.is-clicked,
+      .btn-CA.is-clicked,
+      .btn-t0k.is-clicked,
+      .btn-about.is-clicked{
+        background: linear-gradient(to bottom, gray 0%, dimgray 100%);
+      }
+
+      .btn-CA7.is-clicked:before,
+      .btn-X.is-clicked:before,
+      .btn-TG.is-clicked:before,
+      .btn-DEX.is-clicked:before,
+      .btn-CA.is-clicked:before,
+      .btn-t0k.is-clicked:before,
+      .btn-about.is-clicked:before{
+        animation: blastOut 1s;
+      }
+
+      @keyframes pulse {
+        from {
+          transform: scale(1);
+          opacity: 0.4;
+        }
+        to {
+          transform: scale(1.7);
+          opacity: 0;
+        }
+      }
+
+      @keyframes blastOut {
+        from {
+          transform: scale(0.9);
+          opacity: 0.4;
+        }
+        to {
+          transform: scale(10);
+          opacity: 0;
+        }
+      }        
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop playsinline id="myVideo">
+        <source src="https://cdn.glitch.global/57061bb5-3f2f-47b5-ac85-723778ba7808/dead7-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>    
+    <a href="https://twitter.com/deadca7_eth" class="btn-X" target="_blank"></a>
+    <a href="/" class="btn-CA7" target="_blank"></a>
+    <a href="https://t.me/deadca7" class="btn-TG" target="_blank"></a>
+    <a href="https://dexscreener.com/ethereum/0xdeadca7a1684fb3F3dBeC46Cc7763Ab718714234" class="btn-DEX" target="_blank"></a>
+    <a href="https://etherscan.io/token/0xdeadca7a1684fb3F3dBeC46Cc7763Ab718714234" class="btn-CA" target="_blank"></a>
+    
+    <a id="about-popup"></a>
+    <div class="popup" id="popupAbout">
+    </div>
+  
+    <a id="tok-popup"></a>
+    <div class="popup" id="popupTok">  
+      
+    </div>
+  
+    <a class="btn-about" href="#about-popup"></a> 
+    <a class="btn-t0k" href="#tok-popup"></a>
+  
+    <script>    
+      
+      
+    </script>
+</body>
+</html>
 
